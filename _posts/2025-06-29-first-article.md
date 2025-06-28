@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "Cara Memilih Lot yang Tepat"
+title: "Pengujian Web Baru"
 date: 2025-06-28
 categories: [Tips, Risk Management]
 tags: [lot, risk, trading]
-excerpt: "Memilih ukuran lot yang sesuai adalah kunci agar tetap aman dalam jangka panjang. Yuk pelajari caranya!"
+excerpt: "Ini adalah web baru yang sedikit lebih maju dari web biasanya!"
 ---
 
 Ukuran lot menentukan seberapa besar risiko dalam setiap entry.  
