@@ -1,55 +1,67 @@
-# Metadata umum
+# ---------------------------------------------
+# Informasi umum
+# ---------------------------------------------
 title: Kode Profit
-description: Belajar. Berbagi. Profit bareng!
-url: "https://kodeprofit.github.io"  # domain utama
-baseurl: "" # misal "/blog" jika repo bukan user/organization pages
+description: Belajar. Berbagi. Profit bareng! — Strategi trading, EA, dan edukasi trader modern.
+url: "https://kodeprofit.github.io"  # Ganti jika nanti pakai domain custom
+baseurl: ""  # Kalau repo user pages kosong, kalau project pages pakai /namarepo
+
 repository: kodeprofit/kodeprofit.github.io
 
+# ---------------------------------------------
 # Author
+# ---------------------------------------------
 author:
   name: "Tim Kode Profit"
   email: "ringinbambu@gmail.com"
   url: "https://kodeprofit.github.io/about"
 
-# Theme dan layout
+# ---------------------------------------------
+# Theme
+# ---------------------------------------------
 remote_theme: mmistakes/minimal-mistakes
-# theme: jekyll-theme-cayman   # kalau pakai theme bawaan
 
-# Plugin (fitur tambahan)
+# ---------------------------------------------
+# Plugins
+# ---------------------------------------------
 plugins:
-  - jekyll-feed          # RSS feed
-  - jekyll-sitemap       # Sitemap otomatis
-  - jekyll-seo-tag       # SEO tag meta otomatis
-  - jekyll-paginate      # Pagination untuk blog
-  - jekyll-archives      # Archive per kategori, tahun, tag
-  - jekyll-include-cache # Caching include
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-include-cache
 
-# Pengaturan SEO
-seo:
-  type: "Organization"
-  social:
-    name: "Kode Profit"
-    links:
-      - "https://instagram.com/kodeprofit"
-      - "https://t.me/kodeprofit"
+# ---------------------------------------------
+# SEO dan analytics
+# ---------------------------------------------
+google_analytics: UA-XXXXXXXXX-Y  # Ganti dengan kode asli jika pakai GA
+lang: id
+logo: /assets/images/logo.png
+social:
+  links:
+    - "https://instagram.com/kodeprofit"
+    - "https://t.me/kodeprofit"
+    - "https://github.com/kodeprofit"
 
-# Analytics
-google_analytics: UA-XXXXXXXXX-Y  # ganti dengan kode asli
-
-# Default values untuk setiap page/post
+# ---------------------------------------------
+# Default values
+# ---------------------------------------------
 defaults:
   - scope:
-      path: "" # semua file
+      path: ""
       type: "posts"
     values:
-      layout: "single"
+      layout: single
       author: "Tim Kode Profit"
       read_time: true
       comments: true
       share: true
       related: true
 
-# Menu navigasi
+# ---------------------------------------------
+# Navigation
+# ---------------------------------------------
 navigation:
   - title: "Home"
     url: "/"
@@ -62,28 +74,33 @@ navigation:
   - title: "Contact"
     url: "/contact/"
 
-# Social links
-social:
-  github: kodeprofit
-  instagram: kodeprofit
-  telegram: kodeprofit
+# ---------------------------------------------
+# Social
+# ---------------------------------------------
+github_username: kodeprofit
+instagram_username: kodeprofit
+telegram_username: kodeprofit
 
+# ---------------------------------------------
 # Pagination
+# ---------------------------------------------
 paginate: 5
 paginate_path: "/page:num/"
 
-# Kategori dan tag
-categories_dir: categories
-tag_dir: tags
-
+# ---------------------------------------------
 # Permalink
+# ---------------------------------------------
 permalink: /:categories/:title/
 
+# ---------------------------------------------
 # Build settings
+# ---------------------------------------------
 markdown: kramdown
 highlighter: rouge
 
-# Exclude files saat build
+# ---------------------------------------------
+# Exclude / include
+# ---------------------------------------------
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -91,7 +108,14 @@ exclude:
   - vendor
   - README.md
 
-# Include file khusus (misal robots.txt)
 include:
   - _pages
   - robots.txt
+
+# ---------------------------------------------
+# Other options (optional)
+# ---------------------------------------------
+timezone: Asia/Jakarta
+
+# Tagline
+tagline: "Puncak dan lembah hanyalah bagian dari perjalanan — yang penting, kita tetap profit! 💹🚀"
