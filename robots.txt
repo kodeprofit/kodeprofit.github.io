@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kodeprofit.github.io/sitemap.xml
