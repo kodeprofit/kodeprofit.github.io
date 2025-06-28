@@ -1,9 +1,97 @@
+# Metadata umum
 title: Kode Profit
 description: Belajar. Berbagi. Profit bareng!
-baseurl: "" # misalnya "/blog" jika disimpan di subfolder
-url: "https://kodeprofit.github.io"
-theme: jekyll-theme-cayman
+url: "https://kodeprofit.github.io"  # domain utama
+baseurl: "" # misal "/blog" jika repo bukan user/organization pages
+repository: kodeprofit/kodeprofit.github.io
 
+# Author
+author:
+  name: "Tim Kode Profit"
+  email: "ringinbambu@gmail.com"
+  url: "https://kodeprofit.github.io/about"
+
+# Theme dan layout
+remote_theme: mmistakes/minimal-mistakes
+# theme: jekyll-theme-cayman   # kalau pakai theme bawaan
+
+# Plugin (fitur tambahan)
 plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
+  - jekyll-feed          # RSS feed
+  - jekyll-sitemap       # Sitemap otomatis
+  - jekyll-seo-tag       # SEO tag meta otomatis
+  - jekyll-paginate      # Pagination untuk blog
+  - jekyll-archives      # Archive per kategori, tahun, tag
+  - jekyll-include-cache # Caching include
+
+# Pengaturan SEO
+seo:
+  type: "Organization"
+  social:
+    name: "Kode Profit"
+    links:
+      - "https://instagram.com/kodeprofit"
+      - "https://t.me/kodeprofit"
+
+# Analytics
+google_analytics: UA-XXXXXXXXX-Y  # ganti dengan kode asli
+
+# Default values untuk setiap page/post
+defaults:
+  - scope:
+      path: "" # semua file
+      type: "posts"
+    values:
+      layout: "single"
+      author: "Tim Kode Profit"
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+# Menu navigasi
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "Tools"
+    url: "/tools/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Social links
+social:
+  github: kodeprofit
+  instagram: kodeprofit
+  telegram: kodeprofit
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Kategori dan tag
+categories_dir: categories
+tag_dir: tags
+
+# Permalink
+permalink: /:categories/:title/
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files saat build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+
+# Include file khusus (misal robots.txt)
+include:
+  - _pages
+  - robots.txt
