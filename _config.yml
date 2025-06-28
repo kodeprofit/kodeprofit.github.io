@@ -1,0 +1,9 @@
+title: Kode Profit
+description: Belajar. Berbagi. Profit bareng!
+baseurl: "" # misalnya "/blog" jika disimpan di subfolder
+url: "https://kodeprofit.github.io"
+theme: jekyll-theme-cayman
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
