@@ -7,11 +7,10 @@ tags: [lot, risk, trading]
 excerpt: "Ini adalah web baru yang sedikit lebih maju dari web biasanya!"
 ---
 
-Ukuran lot menentukan seberapa besar risiko dalam setiap entry.  
+Belajar menggunakan web yang selangkah lebih maju.  
 Beberapa poin penting:
 
-- Hitung risk per trade (misalnya 1–2% dari akun).
-- Sesuaikan dengan stop loss.
-- Gunakan kalkulator lot (bisa pakai tools yang kita sediakan di [Tools](../tools/)).
+- Kerapian dan kebersihan adalah hal yang sederhana tapi istimewah.
+- Segala sesuatu jika rapi dan terukur akan enak dilihat dan membuat pikiran cerah.
 
-Jangan over lot supaya akunmu lebih tahan lama 🚀.
+Tetap belajar dan membangun 🚀.
