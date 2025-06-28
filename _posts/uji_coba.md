@@ -4,7 +4,7 @@ title: "Uji Coba"
 date: 2025-06-29
 categories: [Tips, Risk Management]
 tags: [lot, risk, trading]
-excerpt: "Memilih ukuran lot yang sesuai adalah kunci agar tetap aman dalam jangka panjang. Yuk pelajari caranya!"
+excerpt: "Pengujian!"
 ---
 
 Ukuran lot menentukan seberapa besar risiko dalam setiap entry.  
