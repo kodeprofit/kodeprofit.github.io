@@ -83,3 +83,10 @@ Jika repo ini bermanfaat:
 > 🚀 *"Belajar. Berbagi. Profit bareng!"* — Kode Profit
 >
 > "Puncak dan lembah hanyalah bagian dari perjalanan — yang penting, kita tetap profit!" 💹🚀
+>
+
+---
+
+# Kosa kata peracikan untuk Metabrani
+
+Nilai strategis (dari Presiden Prabowo)
