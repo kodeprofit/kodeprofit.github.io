@@ -7,6 +7,7 @@
 [![License](https://img.shields.io/github/license/kodeprofit/kodeprofit.github.io)](https://github.com/kodeprofit/kodeprofit.github.io/blob/main/LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/kodeprofit/kodeprofit.github.io)](https://github.com/kodeprofit/kodeprofit.github.io/commits/main)
 
+https://mastodon.social/@nixCraft
 ---
 
 ## 📄 Daftar Isi
